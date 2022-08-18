@@ -99,3 +99,5 @@ python.exe src/_AGen.py true true 1.12 0 'src/collections/Bearing Bears/' 'Beari
 python.exe src/_AGen.py true true 1.12 0 'src/collections/StuffyBunny/' 'StuffyBunny.json' 1050 1250 5000
 
 python.exe src/_AGen.py true true 1.12 0 'src/collections/Meta_Inu/' 'Meta_Inu.json' 3000 3000 300
+
+python.exe src/_AGen.py true true 1.12 0 'src/collections/All_Mediks/' 'All_Mediks.json' 2000 2000 3500
