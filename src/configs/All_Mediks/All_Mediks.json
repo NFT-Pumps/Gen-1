@@ -1,0 +1,166 @@
+{
+	"Object": {
+		"types": [
+			{
+				"type": "All_Mediks",
+				"folder": "All_Mediks/",
+				"max": 3500,
+				"countType": "count",
+				"layers": [
+					{
+						"layer": "Backgrounds",
+						"folder": "Background/",
+						"options": [ 
+						{ "name": "Flawless_Beach", "count" : 150 }, 
+						{ "name": "Purple_Hill", "count" : 150 }, 
+						{ "name": "Faded_Pink", "count" : 200 }, 
+						{ "name": "Dry_Beach", "count" : 25 }, 
+						{ "name": "Pink_Hill", "count" : 225 }, 
+						{ "name": "Lonely_Blue", "count" : 75 }, 
+						{ "name": "Pitch_Hill", "count" : 500 }, 
+						{ "name": "Tempted_Green", "count" : 565 }, 
+						{ "name": "Green_Hill", "count" : 650 }, 
+						{ "name": "Taunted_Hill", "count" : 650 }, 
+						{ "name": "Diet_Hill", "count" : 310 } 
+						]
+					},
+					{
+						"layer": "Base",
+						"folder": "Base/",
+						"options": [
+							{ "name": "Dbrown_Skin", "count" : 150 }, 
+							{ "name": "Light_Skin", "count" : 150 }, 
+							{ "name": "Pink_Skin", "count" : 200 }, 
+							{ "name": "Sun_Skin", "count" : 25 }, 
+							{ "name": "Pale_Skin", "count" : 225 }, 
+							{ "name": "Flushed_Skin", "count" : 75 }, 
+							{ "name": "Mint_Skin", "count" : 500 }, 
+							{ "name": "Grey_Skin", "count" : 565 }, 
+							{ "name": "Tame_Skin", "count" : 650 }, 
+							{ "name": "Brown_Skin", "count" : 650 }, 
+							{ "name": "Lbrown_Skin", "count" : 310 } 
+																			
+						]
+					},
+					{
+						"layer": "Hair",
+						"folder": "Hair/",
+						"options": [
+							{ "name": "Peach_Hair_2", "count" : 150 }, 
+							{ "name": "Red_Length", "count" : 500 }, 
+							{ "name": "Pink_Floss", "count" : 150 }, 
+							{ "name": "Yellow_Hair", "count" : 560 }, 
+							{ "name": "Peach_Hair", "count" : 400 }, 
+							{ "name": "Blue_Top", "count" : 65 }, 
+							{ "name": "Black_Top_2", "count" : 280 }, 
+							{ "name": "Red_Hair", "count" : 280 }, 
+							{ "name": "Black_Top", "count" : 230 }, 
+							{ "name": "Purple_Pumper", "count" : 425 }, 
+							{ "name": "Purple_Hair", "count" : 35 }, 
+							{ "name": "Yellow_Brand", "count" : 425 }
+							
+																				 
+						]
+					},
+					{
+						"layer": "Scar-Tattoo",
+						"folder": "Scar-Tattoo/",
+						"options": [
+							{ "name": "Rip_Tart", "count" : 240 }, 
+							{ "name": "Claw_Tart", "count" : 200 }, 
+							{ "name": "Storm_Tart", "count" : 35 }, 
+							{ "name": "Pie_Tart", "count" : 250 }, 
+							{ "name": "Star_Tart", "count" : 180 }, 
+							{ "name": "Fire_Tart", "count" : 300 }, 
+							{ "name": "Bloody_Tart", "count" : 150 }, 
+							{ "name": "Leaf_Tart", "count" : 180 }, 
+							{ "name": "Strike_Tart", "count" : 300 }, 
+							{ "name": "Chem_Tart", "count" : 75 }, 
+							{ "name": "Needle_Tart", "count" : 500 }, 
+							{ "name": "Kitten_Tart", "count" : 260 }, 
+							{ "name": "Moon_Tart", "count" : 150 }, 
+							{ "name": "Cross_Tart", "count" : 180 }, 
+							{ "name": "Paw_Tart", "count" : 500 } 
+						]
+																											
+						
+					},
+					{
+						"layer": "Shirt",
+						"folder": "Shirt/",
+						"options": [
+							{ "name": "Hungry_Medik", "count" : 400 }, 
+							{ "name": "Bad_Doc", "count" : 25 }, 
+							{ "name": "Blue_Intern", "count" : 600 }, 
+							{ "name": "Green_Camo", "count" : 500 }, 
+							{ "name": "Grey_Intern", "count" : 500 }, 
+							{ "name": "Grey_Camo", "count" : 600 }, 
+							{ "name": "Medik_Scrub", "count" : 500 }, 
+							{ "name": "Priest_Medik", "count" : 75 }, 
+							{ "name": "Good_Doc", "count" : 150 }, 
+							{ "name": "Brown_Camo", "count" : 150 }
+							
+																			 
+						]
+					},
+					{
+						"layer": "Mask-Mouth_Thermometer",
+						"folder": "Mask-Mouth_Thermometer/",
+						"options": [
+							{ "name": "Purge_Mask", "count" : 200 }, 
+							{ "name": "Cross_Crow", "count" : 30 }, 
+							{ "name": "Plus_Mouth", "count" : 120 }, 
+							{ "name": "Midnight_Purge", "count" : 220 }, 
+							{ "name": "Wcross_Mask", "count" : 150 }, 
+							{ "name": "Crow_Mask", "count" : 80 }, 
+							{ "name": "Yellow_Purge", "count" : 165 }, 
+							{ "name": "Green_Purge", "count" : 165 }, 
+							{ "name": "Pink_Lip", "count" : 600 }, 
+							{ "name": "Itchy_Stachie", "count" : 120 }, 
+							{ "name": "Cartoon_Teeth", "count" : 300 }, 
+							{ "name": "Blue_Mask", "count" : 300 }, 
+							{ "name": "Halloween_Lips", "count" : 250 }, 
+							{ "name": "Valid_Mouth", "count" : 200 }, 
+							{ "name": "Coffee_Teeth", "count" : 300 }, 
+							{ "name": "Tape_Up", "count" : 300 } 
+							
+																				 
+						]
+					},
+					{
+						"layer": "PET",
+						"folder": "PET/",
+						"options": [
+							{ "name": "64_Doc", "count" : 250 }, 
+							{ "name": "C_Cup", "count" : 300 }, 
+							{ "name": "Pep_Dog", "count" : 220 }, 
+							{ "name": "Sea_Doll", "count" : 30 }, 
+							{ "name": "Glove", "count" : 200 }, 
+							{ "name": "Needle_Bird", "count" : 350 }, 
+							{ "name": "Dino_Nurse", "count" : 220 }, 
+							{ "name": "Shrimp_Carrot", "count" : 220 }, 
+							{ "name": "Root", "count" : 180 }, 
+							{ "name": "Muppet_Med", "count" : 250 }, 
+							{ "name": "Pin_Bird", "count" : 350 }, 
+							{ "name": "Fort_Sheep", "count" : 250 }, 
+							{ "name": "Puff_Cat", "count" : 220 }, 
+							{ "name": "Rot_Egg", "count" : 180 }, 
+							{ "name": "Bulk_Carrot", "count" : 220 }, 
+							{ "name": "Uncle_Bird", "count" : 60 } 
+						   
+																										
+						]
+					}
+					
+				]
+			}
+		],
+		"extras": {
+			"tiers": [
+				{
+					"type": 1
+				}
+			]
+		}
+	}
+}
