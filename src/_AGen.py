@@ -213,7 +213,7 @@ async def ImageGenerator():
 
                         stringCurrentID = str(currentIDrando)
                         layerMeta["description"] = "Default Collection."
-                        layerMeta["external_url"] = "https://https://allmediks.com//" + stringCurrentID
+                        layerMeta["external_url"] = "https://allmediks.com//" + stringCurrentID
                         layerMeta["image"] = "https://public-pre-ipfs.s3.amazonaws.com/All_Mediks/images/" + stringCurrentID + ".png"
                         layerMeta["name"] = "Generated #" + stringCurrentID.zfill(5)
 
