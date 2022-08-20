@@ -103,3 +103,5 @@ python.exe src/_AGen.py true true 1.12 0 'src/collections/Meta_Inu/' 'Meta_Inu.j
 python.exe src/_AGen.py true true 1.12 0 'src/collections/All_Mediks/' 'All_Mediks.json' 2000 2000 3500
 
 python.exe src/_AGen.py true true 1.12 0 'src/collections/DarkHorse/' 'DarkHorse.json' 4000 4000 1000
+
+python.exe src/_AGen.py true true 1.12 0 'src/collections/FarmFolkNFT/' 'FarmFolkNFT.json' 3969 3969 185

@@ -213,8 +213,8 @@ async def ImageGenerator():
 
                         stringCurrentID = str(currentIDrando)
                         layerMeta["description"] = "Default Collection."
-                        layerMeta["external_url"] = "https://allmediks.com//" + stringCurrentID
-                        layerMeta["image"] = "https://public-pre-ipfs.s3.amazonaws.com/All_Mediks/images/" + stringCurrentID + ".jpeg"
+                        layerMeta["external_url"] = "https://farmfolknft.com//" + stringCurrentID
+                        layerMeta["image"] = "https://public-pre-ipfs.s3.amazonaws.com/Farm_Folk_NFT/images/" + stringCurrentID + ".jpeg"
                         layerMeta["name"] = "Generated #" + stringCurrentID.zfill(5)
 
                         if not os.path.exists(newpath):
