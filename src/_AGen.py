@@ -181,7 +181,7 @@ async def ImageGenerator():
                         if (weightedObjects[tempLayer]["max"]*weightedMultiplier) <= weightedObjects[tempLayer]["minted"]:
                             shouldWeStich = False
                         stichArray.append(
-                            folderPath + objectTypes["type"] + "/" + layer + "/" + uniqueCombinationRow[layer] + ".png")
+                            folderPath + objectTypes["type"] + "/" + layer + "/" + uniqueCombinationRow[layer] + ".jpeg")
 
                         layerMeta["attributes"].append({
                             "trait_type": layer,
@@ -214,7 +214,7 @@ async def ImageGenerator():
                         stringCurrentID = str(currentIDrando)
                         layerMeta["description"] = "Default Collection."
                         layerMeta["external_url"] = "https://allmediks.com//" + stringCurrentID
-                        layerMeta["image"] = "https://public-pre-ipfs.s3.amazonaws.com/All_Mediks/images/" + stringCurrentID + ".png"
+                        layerMeta["image"] = "https://public-pre-ipfs.s3.amazonaws.com/All_Mediks/images/" + stringCurrentID + ".jpeg"
                         layerMeta["name"] = "Generated #" + stringCurrentID.zfill(5)
 
                         if not os.path.exists(newpath):

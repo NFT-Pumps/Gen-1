@@ -19,7 +19,7 @@ def merge_JsonFiles(allFiles):
             thisJson["description"] = "Cthulhu Collection"
             thisJson["name"] = "Cthulhu #" + theID
             thisJson["external_url"] = ""
-            thisJson["image"] = "ipfs://QmWKcs7gYtMKcfPzMPS7q7D7mPf6tN1QTjjjRStnPY9Ee5/" + theID + ".png"
+            thisJson["image"] = "ipfs://QmWKcs7gYtMKcfPzMPS7q7D7mPf6tN1QTjjjRStnPY9Ee5/" + theID + ".jpeg"
             thisJson["animation_url"] = "ipfs://QmPFZGSXroikibbFAktxtDfRnzTKhQDAziBvdKwhW75GTx"
             del thisJson['combination'] 
             del thisJson["attributes"][0]

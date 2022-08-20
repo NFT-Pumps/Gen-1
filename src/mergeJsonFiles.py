@@ -14,12 +14,12 @@ def merge_JsonFiles(filename):
                 theID = (external_url.rsplit('/', 1))[1]
                 result.append(thisJson)
                 ArrayOfFiles = [
-                    'src/collections/xMooneyMale/Male/Background/' +  thisJson["attributes"][1]['value'].replace(" ", "_") + ".png",
-                    'src/collections/xMooneyMale/Male/Base/' +  thisJson["attributes"][2]['value'].replace(" ", "_") + ".png",
-                    'src/collections/xMooneyMale/Male/Clothes/' +  thisJson["attributes"][3]['value'].replace(" ", "_") + ".png",
-                    'src/collections/xMooneyMale/Male/Accessories/' +  thisJson["attributes"][6]['value'].replace(" ", "_") + ".png",
-                    'src/collections/xMooneyMale/Male/Hat/' +  thisJson["attributes"][4]['value'].replace(" ", "_") + ".png",
-                    'src/collections/xMooneyMale/Male/Mouths/' +  thisJson["attributes"][5]['value'].replace(" ", "_") + ".png"                   
+                    'src/collections/xMooneyMale/Male/Background/' +  thisJson["attributes"][1]['value'].replace(" ", "_") + ".jpeg",
+                    'src/collections/xMooneyMale/Male/Base/' +  thisJson["attributes"][2]['value'].replace(" ", "_") + ".jpeg",
+                    'src/collections/xMooneyMale/Male/Clothes/' +  thisJson["attributes"][3]['value'].replace(" ", "_") + ".jpeg",
+                    'src/collections/xMooneyMale/Male/Accessories/' +  thisJson["attributes"][6]['value'].replace(" ", "_") + ".jpeg",
+                    'src/collections/xMooneyMale/Male/Hat/' +  thisJson["attributes"][4]['value'].replace(" ", "_") + ".jpeg",
+                    'src/collections/xMooneyMale/Male/Mouths/' +  thisJson["attributes"][5]['value'].replace(" ", "_") + ".jpeg"                   
                 ]
 
                 stitch('src/output/xMartiansMale.20211111005517/replacehats' + "/", theID, ArrayOfFiles, 900, 900)

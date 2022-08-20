@@ -36,7 +36,7 @@ def combineTypes(FileLocations):
             external_url = thisJson['external_url']
             theID = (external_url.rsplit('/', 1))[1]
         
-        shutil.copy(currentFile["image"] + "/" + str(theID) + ".png", "src/output/xMartians/images" + "/" + str(newID) + ".png" )
+        shutil.copy(currentFile["image"] + "/" + str(theID) + ".jpeg", "src/output/xMartians/images" + "/" + str(newID) + ".jpeg" )
 
     newID = startingNumber
 
@@ -52,7 +52,7 @@ def combineTypes(FileLocations):
             thisJson["description"] = "xMartian NFT"
             thisJson["name"] = "xMartian #" + strNewID
             thisJson["external_url"] = "https://xMartianNFT.com/"
-            thisJson["image"] = "ipfs://QmXWCNYcBkKJBUYgyi22BSUL5f1qqk2UEVYTmFv4JQ9cLs/" + strNewID + ".png"
+            thisJson["image"] = "ipfs://QmXWCNYcBkKJBUYgyi22BSUL5f1qqk2UEVYTmFv4JQ9cLs/" + strNewID + ".jpeg"
             thisJson["attributes"][0]["value"] = "Galaxy"
             thisJson["attributes"].append({
                 "trait_type": "Gender",

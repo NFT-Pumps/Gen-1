@@ -32,14 +32,14 @@ async def merge_JsonFiles(filename):
             accLayer = thisJson["attributes"][7]["value"].replace(" ", "_")
 
             ArrayOfFiles = [
-                collectionLocation + "Background/" + backgroundLayer + ".PNG",
-                collectionLocation + "Badge/" + badgeLayer + ".PNG",
-                collectionLocation + "Base/" + baseLayer + ".PNG",
-                collectionLocation + "Eyes/" + eyesLayer + ".PNG",
-                collectionLocation + "Mouth/" + mouthLayer + ".PNG",
-                collectionLocation + "Face Accessory/" + faceAccLayer + ".PNG",
-                collectionLocation + "Hat/" + hatLayer + ".PNG",
-                collectionLocation + "Accessory/" + accLayer + ".PNG"
+                collectionLocation + "Background/" + backgroundLayer + ".jpeg",
+                collectionLocation + "Badge/" + badgeLayer + ".jpeg",
+                collectionLocation + "Base/" + baseLayer + ".jpeg",
+                collectionLocation + "Eyes/" + eyesLayer + ".jpeg",
+                collectionLocation + "Mouth/" + mouthLayer + ".jpeg",
+                collectionLocation + "Face Accessory/" + faceAccLayer + ".jpeg",
+                collectionLocation + "Hat/" + hatLayer + ".jpeg",
+                collectionLocation + "Accessory/" + accLayer + ".jpeg"
             ]
 
             asyncio.ensure_future(stitch(newOutputFolder, theID, ArrayOfFiles, 1050, 1250))

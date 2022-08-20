@@ -37,7 +37,7 @@ def renameFileExtensionsInDirectoryToLowerCase(path):
                     p2 = Path(f2)
                     p2.rename(p.with_suffix(fileExt))
                     thisItemJSON = {"name": Path(p).stem, "count": 1}
-                    if(fileExt.endswith(".png")):
+                    if(fileExt.endswith(".jpeg")):
                         thisJSON.append(thisItemJSON)
                     # print(json.)
                 # print(p)

@@ -207,14 +207,14 @@ async def merge_JsonFiles(filename):
             #extrasLayer = thisJson["attributes"][8]["value"]
 
             ArrayOfFiles = [
-                collectionLocation + "Background/" + backgroundLayer + ".png",
-                collectionLocation + "Head/" + headLayer + ".png",
-                collectionLocation + "Tattoo/" + tattooLayer + ".png",                
-                collectionLocation + "Eyes/" + eyesLayer + ".png",
-                collectionLocation + "Mouth/" + mouthLayer + ".png",
-                collectionLocation + "Clothing/" + clothingLayer + ".png",
-                collectionLocation + "Accessory/" + accessoryLayer + ".png",
-                #collectionLocation + "Extras/" + extrasLayer + ".png"
+                collectionLocation + "Background/" + backgroundLayer + ".jpeg",
+                collectionLocation + "Head/" + headLayer + ".jpeg",
+                collectionLocation + "Tattoo/" + tattooLayer + ".jpeg",                
+                collectionLocation + "Eyes/" + eyesLayer + ".jpeg",
+                collectionLocation + "Mouth/" + mouthLayer + ".jpeg",
+                collectionLocation + "Clothing/" + clothingLayer + ".jpeg",
+                collectionLocation + "Accessory/" + accessoryLayer + ".jpeg",
+                #collectionLocation + "Extras/" + extrasLayer + ".jpeg"
             ]
 
             thisJson["attributes"][0]["trait_type"] = "WTFork Type"
@@ -223,7 +223,7 @@ async def merge_JsonFiles(filename):
                 "value": gender })
             thisJson["description"] = "WTForksNFT Collection"
             thisJson["external_url"] = "wtforksnft.com"
-            thisJson["image"] = "ipfs://QmQjz8JcdhfWkVGpRMD2q93bdr6xgA9btaTK4XzG3pvnda/" + theID + ".png"
+            thisJson["image"] = "ipfs://QmQjz8JcdhfWkVGpRMD2q93bdr6xgA9btaTK4XzG3pvnda/" + theID + ".jpeg"
             thisJson["name"] = "WTFork"
 
             json_object = json.dumps(thisJson, indent=4)

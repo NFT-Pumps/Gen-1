@@ -69,7 +69,7 @@ async def combineTypes(FileLocations):
             thisJson["name"] = "#" + strNewID
             # thisJson["external_url"] = "https://www.thenftcc.io"
             thisJson["image"] = "https://wtforks-general.s3.amazonaws.com/images/" + \
-                strNewID + ".png"
+                strNewID + ".jpeg"
             #del thisJson['combination']
             # del thisJson["attributes"][0]
             finalJSON = json.dumps(thisJson, indent=4)
@@ -91,7 +91,7 @@ async def combineTypes(FileLocations):
         #     thisJson = json.load(infile)
         #     external_url = thisJson['external_url']
         #     theID = (external_url.rsplit('/', 1))[1]
-        await runCopy(currentFile["image"] + "/" + str(theID) + ".png", "src/output/WTF/Shuffled/images" + "/" + str(newID) + ".png")
+        await runCopy(currentFile["image"] + "/" + str(theID) + ".jpeg", "src/output/WTF/Shuffled/images" + "/" + str(newID) + ".jpeg")
         
 
     

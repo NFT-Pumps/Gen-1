@@ -34,7 +34,7 @@ def combineTypes(FileLocations):
             external_url = thisJson['external_url']
             theID = (external_url.rsplit('/', 1))[1]
         
-        shutil.copy(currentFile["image"] + "/" + str(theID) + ".png", "src/output/NFTCC/images" + "/" + str(newID) + ".png" )
+        shutil.copy(currentFile["image"] + "/" + str(theID) + ".jpeg", "src/output/NFTCC/images" + "/" + str(newID) + ".jpeg" )
 
     newID = 0
 
@@ -50,7 +50,7 @@ def combineTypes(FileLocations):
             thisJson["description"] = "NFTCC"
             thisJson["name"] = "NFTCC #" + strNewID
             thisJson["external_url"] = "https://www.thenftcc.io"
-            thisJson["image"] = "ipfs://QmXWCNYcBkKJBUYgyi22BSUL5f1qqk2UEVYTmFv4JQ9cLs/" + strNewID + ".png"
+            thisJson["image"] = "ipfs://QmXWCNYcBkKJBUYgyi22BSUL5f1qqk2UEVYTmFv4JQ9cLs/" + strNewID + ".jpeg"
             #del thisJson['combination'] 
             del thisJson["attributes"][0]
             finalJSON = json.dumps(thisJson, indent=4)

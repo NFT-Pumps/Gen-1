@@ -14,7 +14,7 @@ def getPNGFilesDataFrame(folderPath, folderName, layerOrder):
     gen_obj_1 = []
 
     folderpath = folderPath + folderName + "/"
-    for filename in glob.iglob(folderpath + '*.png', recursive=True):
+    for filename in glob.iglob(folderpath + '*.jpeg', recursive=True):
         gen_type_1.append(1)
         gen_obj_1.append(filename.split('\\')[-1])
 

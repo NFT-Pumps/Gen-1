@@ -23,7 +23,7 @@ def merge_JsonFiles(allFiles):
         #    # thisJson["description"] = "Stuffy Bunny Collection"
             thisJson["name"] = "#" + theID
         #    # thisJson["external_url"] = "https://www.stuffybunnynft.com"
-            thisJson["image"] = "https://wtforks-general.s3.amazonaws.com/images/" + theID + ".png"
+            thisJson["image"] = "https://wtforks-general.s3.amazonaws.com/images/" + theID + ".jpeg"
         #    # del thisJson['combination'] 
         #     #del thisJson["attributes"][0]
             finalJSON = json.dumps(thisJson, indent=4)
