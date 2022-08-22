@@ -49,7 +49,7 @@ def saveFile(output_dir, filename, img_args, x, y):
         if filename == "":
             filename = name
             
-        newImage.save(output_dir + filename + ".jpeg") 
+        newImage.save(output_dir + filename + ".png") 
         print("minted #" + filename + " for " + output_dir)
     except BaseException as err:
         print(f"Unexpected {err=}, {type(err)=}")              

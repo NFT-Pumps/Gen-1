@@ -78,7 +78,7 @@ listOfCustoms = ["XMartian_Lamar_Jackson.png",
 "xMartian_Sophie.png",
 "xMartian_SoulTrippas.png",
 "xMartian_SpaceKitty.png",
-"xMartian_SpacedOut.jpeg",
+"xMartian_SpacedOut.png",
 "xMartian_Stealie.png",
 "xMartian_Swag.png",
 "xMartian_Swift.png",
@@ -91,7 +91,7 @@ listOfCustoms = ["XMartian_Lamar_Jackson.png",
 "xMartian_Viking.png",
 "xMartian_VonMiller.png",
 "xMartian_Woods.png",
-"xMartian_ZZZ.jpeg",
+"xMartian_ZZZ.png",
 "xMartian_original29.png"]
 
 tempJSON = {

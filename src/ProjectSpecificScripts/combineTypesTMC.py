@@ -71,7 +71,7 @@ async def combineTypes(FileLocations):
             thisJson["name"] = "Monster #" + strNewID
             thisJson["external_url"] = "https://www.theMonsterCommunity.com"
             thisJson["image"] = "https://tmc-suits.s3.us-west-1.amazonaws.com/assets/images/" + \
-                strNewID + ".jpeg"
+                strNewID + ".png"
             # del thisJson['combination']
             # del thisJson["attributes"][0]
             finalJSON = json.dumps(thisJson, indent=4)
@@ -95,7 +95,7 @@ async def combineTypes(FileLocations):
     #     #     thisJson = json.load(infile)
     #     #     external_url = thisJson['external_url']
     #     #     theID = (external_url.rsplit('/', 1))[1]
-    #     await runCopy(currentFile["image"] + "/" + str(theID) + ".jpeg", "src/output/TMC-Rename/images" + "/" + str(newID) + ".jpeg")
+    #     await runCopy(currentFile["image"] + "/" + str(theID) + ".png", "src/output/TMC-Rename/images" + "/" + str(newID) + ".png")
         
 #allthefiles = glob.glob("src/output/xMartiansMale.20211111005517/json/*.json")
 

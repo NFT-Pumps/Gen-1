@@ -1,6 +1,6 @@
  pip install Pillow ##
 
- python.exe stitch.py [-h] 'backgrounds/' 'dinos/' 'traits/' 'texture/traits1632707924883.jpeg' 'output/'
+ python.exe stitch.py [-h] 'backgrounds/' 'dinos/' 'traits/' 'texture/traits1632707924883.png' 'output/'
 
  python.exe src/_AGen.py true 'src/xMooneyCollection/' 'xMartiansGenerator.json' 100
  python.exe src/_AGen.py true 'src/OJ/' 'oj.json' 100
@@ -104,4 +104,4 @@ python.exe src/_AGen.py true true 1.12 0 'src/collections/All_Mediks/' 'All_Medi
 
 python.exe src/_AGen.py true true 1.12 0 'src/collections/DarkHorse/' 'DarkHorse.json' 4000 4000 1000
 
-python.exe src/_AGen.py true true 1.12 0 'src/collections/FarmFolkNFT/' 'FarmFolkNFT.json' 3969 3969 185
+python.exe src/_AGen.py true true 1.12 0 'src/collections/FarmFolkNFT/' 'FarmFolkNFT.json' 3969 3969 188

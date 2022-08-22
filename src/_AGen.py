@@ -181,7 +181,7 @@ async def ImageGenerator():
                         if (weightedObjects[tempLayer]["max"]*weightedMultiplier) <= weightedObjects[tempLayer]["minted"]:
                             shouldWeStich = False
                         stichArray.append(
-                            folderPath + objectTypes["type"] + "/" + layer + "/" + uniqueCombinationRow[layer] + ".jpeg")
+                            folderPath + objectTypes["type"] + "/" + layer + "/" + uniqueCombinationRow[layer] + ".png")
 
                         layerMeta["attributes"].append({
                             "trait_type": layer,
@@ -214,7 +214,7 @@ async def ImageGenerator():
                         stringCurrentID = str(currentIDrando)
                         layerMeta["description"] = "Default Collection."
                         layerMeta["external_url"] = "https://farmfolknft.com//" + stringCurrentID
-                        layerMeta["image"] = "https://public-pre-ipfs.s3.amazonaws.com/Farm_Folk_NFT/images/" + stringCurrentID + ".jpeg"
+                        layerMeta["image"] = "https://public-pre-ipfs.s3.amazonaws.com/Farm_Folk_NFT/images/" + stringCurrentID + ".png"
                         layerMeta["name"] = "Generated #" + stringCurrentID.zfill(5)
 
                         if not os.path.exists(newpath):

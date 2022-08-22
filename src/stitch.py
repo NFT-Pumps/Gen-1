@@ -22,7 +22,7 @@ def stitch(output_dir, *img_args):
             newImage.alpha_composite(img.resize((1500, 1500)))
         else:
             name += str(None) + "_"
-    newImage.save(output_dir + name + ".jpeg")
+    newImage.save(output_dir + name + ".png")
 
 parser = argparse.ArgumentParser()
 #parser.add_argument("backgrounds1", help="The directory of background images.")
@@ -69,7 +69,7 @@ for background in backgrounds:
 """
 
 list1 = ["a", "b", "c"]
-#list2 = ["Male_Mouth1.jpeg", "Male_Mouth10.jpeg", "Male_Mouth11.jpeg", "Male_Mouth12.jpeg", "Male_Mouth2.jpeg", "Male_Mouth3.jpeg", "Male_Mouth4.jpeg", "Male_Mouth5.jpeg", "Male_Mouth6.jpeg", "Male_Mouth7.jpeg", "Male_Mouth8.jpeg", "Male_Mouth9.jpeg", None]
+#list2 = ["Male_Mouth1.png", "Male_Mouth10.png", "Male_Mouth11.png", "Male_Mouth12.png", "Male_Mouth2.png", "Male_Mouth3.png", "Male_Mouth4.png", "Male_Mouth5.png", "Male_Mouth6.png", "Male_Mouth7.png", "Male_Mouth8.png", "Male_Mouth9.png", None]
 list2 = [1,2]
 all_combinations = []
 

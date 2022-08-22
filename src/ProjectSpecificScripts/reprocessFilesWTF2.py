@@ -151,12 +151,12 @@ async def merge_JsonFiles(filename, collectionLocation, outputFolder, newOutputF
                         propGender = jsonProperties["value"]
 
                 ArrayOfFiles = [
-                    collectionLocation + "Background/" + propBackground + ".jpeg",
-                    collectionLocation + "Head/" + propHead + ".jpeg",
-                    collectionLocation + "Tattoo/" + propTattoo + ".jpeg",                
-                    collectionLocation + "Clothing/" + propClothing + ".jpeg",
-                    collectionLocation + "Eyes/" + propEyes + ".jpeg",
-                    collectionLocation + "Mouth/" + propMouth + ".jpeg"       
+                    collectionLocation + "Background/" + propBackground + ".png",
+                    collectionLocation + "Head/" + propHead + ".png",
+                    collectionLocation + "Tattoo/" + propTattoo + ".png",                
+                    collectionLocation + "Clothing/" + propClothing + ".png",
+                    collectionLocation + "Eyes/" + propEyes + ".png",
+                    collectionLocation + "Mouth/" + propMouth + ".png"       
                 ]
 
                 thisJson["attributes"] = []
@@ -171,16 +171,16 @@ async def merge_JsonFiles(filename, collectionLocation, outputFolder, newOutputF
                 thisJson["attributes"].append({ "trait_type": "Mouth", "value": propMouth })
 
                 if propAccessory != "":
-                    ArrayOfFiles.append(collectionLocation + "Accessory/" + propAccessory + ".jpeg")
+                    ArrayOfFiles.append(collectionLocation + "Accessory/" + propAccessory + ".png")
                     thisJson["attributes"].append({ "trait_type": "Accessory", "value": propAccessory })
 
                 if propExtras != "":
-                    ArrayOfFiles.append(collectionLocation + "Extras/" + propExtras + ".jpeg")
+                    ArrayOfFiles.append(collectionLocation + "Extras/" + propExtras + ".png")
                     thisJson["attributes"].append({ "trait_type": "Extras", "value": propExtras })
             
                 thisJson["description"] = "WTForksNFT Collection"
                 thisJson["external_url"] = "wtforksnft.com"
-                thisJson["image"] = "ipfs://QmQjz8JcdhfWkVGpRMD2q93bdr6xgA9btaTK4XzG3pvnda/" + theID + ".jpeg"
+                thisJson["image"] = "ipfs://QmQjz8JcdhfWkVGpRMD2q93bdr6xgA9btaTK4XzG3pvnda/" + theID + ".png"
                 thisJson["name"] = "WTFork"
 
                 result.append(thisJson)

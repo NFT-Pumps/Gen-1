@@ -19,8 +19,8 @@ def merge_JsonFiles(allFiles):
                         
             # thisJson["description"] = "Cthulhu Collection"
             # thisJson["name"] = "Cthulhu #" + theID
-            #thisJson["external_url"] = "https://public-pre-ipfs.s3.us-east-1.amazonaws.com/xmartians/images/" + theID + ".jpeg"
-            #thisJson["image"] = "https://public-pre-ipfs.s3.us-east-1.amazonaws.com/xmartians/images/" + theID + ".jpeg"
+            #thisJson["external_url"] = "https://public-pre-ipfs.s3.us-east-1.amazonaws.com/xmartians/images/" + theID + ".png"
+            #thisJson["image"] = "https://public-pre-ipfs.s3.us-east-1.amazonaws.com/xmartians/images/" + theID + ".png"
             # thisJson["animation_url"] = "ipfs://QmPFZGSXroikibbFAktxtDfRnzTKhQDAziBvdKwhW75GTx"
             # del thisJson['combination'] 
             #del thisJson["attributes"][0]

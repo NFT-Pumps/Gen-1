@@ -1,10 +1,10 @@
 
 import glob
 
-allthefiles = glob.glob("src/output/xMartiansFemale.20211111010332/images/*.jpeg")
-allthefiles2 = glob.glob("src/output/xMartiansFemale.20211111005517/images/*.jpeg")
-allthefiles3 = glob.glob("src/output/xMartiansFemale.20211111010332/images/*.jpeg")
-allthefiles4 = glob.glob("src/output/xMartiansHyperMale.20211111014507/images/*.jpeg")
+allthefiles = glob.glob("src/output/xMartiansFemale.20211111010332/images/*.png")
+allthefiles2 = glob.glob("src/output/xMartiansFemale.20211111005517/images/*.png")
+allthefiles3 = glob.glob("src/output/xMartiansFemale.20211111010332/images/*.png")
+allthefiles4 = glob.glob("src/output/xMartiansHyperMale.20211111014507/images/*.png")
 
 with open('src/output/your_file.txt', 'w') as f:
     for item in allthefiles:

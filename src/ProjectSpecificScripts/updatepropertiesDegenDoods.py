@@ -20,7 +20,7 @@ def merge_JsonFiles(allFiles):
            # thisJson["description"] = "Stuffy Bunny Collection"
            # thisJson["name"] = "Stuffy Bunny #" + theID
            # thisJson["external_url"] = "https://www.stuffybunnynft.com"
-            thisJson["image"] = "ipfs://QmdU2RbGqaAcv9CVw5WFsTEtkeJfLtMynXmgbu67Xk9sts/" + theID + ".jpeg"
+            thisJson["image"] = "ipfs://QmdU2RbGqaAcv9CVw5WFsTEtkeJfLtMynXmgbu67Xk9sts/" + theID + ".png"
            # del thisJson['combination'] 
             #del thisJson["attributes"][0]
             thisIndex = 0

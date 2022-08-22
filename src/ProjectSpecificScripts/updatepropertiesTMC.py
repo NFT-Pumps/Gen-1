@@ -20,7 +20,7 @@ def merge_JsonFiles(allFiles):
            thisJson["description"] = "The Monster Community"
            # thisJson["name"] = "Stuffy Bunny #" + theID
            thisJson["external_url"] = "https://www.themonstercommunity.com"
-            thisJson["image"] = "ipfs://QmQB9HPRzXEDD7bNQjPuZ2EKYofm8oXyMotMvfLYLwUJgy/" + theID + ".jpeg"
+            thisJson["image"] = "ipfs://QmQB9HPRzXEDD7bNQjPuZ2EKYofm8oXyMotMvfLYLwUJgy/" + theID + ".png"
            # del thisJson['combination'] 
             #del thisJson["attributes"][0]
             finalJSON = json.dumps(thisJson, indent=4)
