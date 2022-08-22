@@ -104,4 +104,4 @@ python.exe src/_AGen.py true true 1.12 0 'src/collections/All_Mediks/' 'All_Medi
 
 python.exe src/_AGen.py true true 1.12 0 'src/collections/DarkHorse/' 'DarkHorse.json' 4000 4000 1000
 
-python.exe src/_AGen.py true true 1.12 0 'src/collections/FarmFolkNFT/' 'FarmFolkNFT.json' 3969 3969 188
+python.exe src/_AGen.py true true 1.12 0 'src/collections/FarmFolk/' 'FarmFolkNFT.json' 3969 3969 188
